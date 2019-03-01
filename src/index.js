@@ -19,8 +19,6 @@ module.exports = function getZerosCount(number, base) {
       count++;
       n /= primes[i];
     }
-    
-    console.log(primes);
 
     n = Math.floor(number / primes[i]);
     var sum = 0;
